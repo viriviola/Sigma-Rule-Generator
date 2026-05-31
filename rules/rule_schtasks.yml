@@ -1,0 +1,13 @@
+title: Detection: Scheduled Task Creation
+status: experimental
+references: [CISA AA23-136A]
+date: 2026-05-31
+logsource:
+    product: windows
+    category: process_creation
+detection:
+    selection:
+        Image|endswith: '\schtasks.exe'
+        CommandLine|contains: '/create'
+    condition: selection
+level: medium

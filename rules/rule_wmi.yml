@@ -1,0 +1,13 @@
+title: Detection: WMI Lateral Movement
+status: experimental
+references: [CISA AA23-136A]
+date: 2026-05-31
+logsource:
+    product: windows
+    category: process_creation
+detection:
+    selection:
+        ParentImage|endswith: '\wmiprvse.exe'
+        Image|endswith: '\cmd.exe'
+    condition: selection
+level: high

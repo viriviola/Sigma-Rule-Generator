@@ -1,0 +1,20 @@
+title: Detection: WMI Lateral Movement
+status: experimental
+description: Detects WMI process creation
+references:
+    - CISA AA23-136A
+author: Threat Intel Pipeline
+date: 2026-05-31
+tags:
+    - attack.t1047
+logsource:
+    product: windows
+    category: process_creation
+detection:
+    selection:
+        ParentImage|endswith: '\wmiprvse.exe'
+        Image|endswith:
+            - '\cmd.exe'
+            - '\powershell.exe'
+    condition: selection
+level: high
