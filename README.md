@@ -319,7 +319,7 @@ This project demonstrates practical experience with:
 
 ## Author
 
-**Alka Parida**
+**Alaka Parida**
 
 Built to demonstrate a multidisciplinary cybersecurity role combining:
 
