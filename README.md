@@ -1,4 +1,4 @@
-# Sigma Rule Generator
+# SigmaForge - Sigma Rule Generator
 
 ![Python](https://img.shields.io/badge/Python-3.7+-blue)
 ![Sigma](https://img.shields.io/badge/Sigma-Detection%20Rules-red)
