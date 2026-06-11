@@ -110,7 +110,7 @@ Rules Runbook Map
 ## Project Structure
 
 ```text
-sigma-rule-generator/
+SigmaForge/
 │
 ├── generate.py
 │
@@ -164,8 +164,8 @@ No third-party dependencies are required.
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sigma-rule-generator.git
-cd sigma-rule-generator
+git clone https://github.com/YOUR_USERNAME/SigmaForge.git
+cd SigmaForge
 ```
 
 ---
